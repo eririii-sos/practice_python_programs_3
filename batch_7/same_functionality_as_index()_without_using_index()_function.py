@@ -10,4 +10,7 @@ for i in range(len(text) - len(substring) + 1):
         break
 
 # Print result
-print(f"The substring first appears at index {index}.") 
+if index != -1:
+    print(f"The substring first appears at index {index}.") 
+else:
+    print("Error! Substring not found.")
