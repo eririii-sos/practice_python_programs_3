@@ -10,3 +10,7 @@ for i in range(len(text) - len(substring), -1, -1):
         break
 
 # Print result
+if index != -1:
+    print(f"The substring last appears at index {index}.")
+else:
+    print("Error! Substring not found.") # Error handling
